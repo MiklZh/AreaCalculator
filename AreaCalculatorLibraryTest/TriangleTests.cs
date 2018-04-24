@@ -65,7 +65,7 @@ namespace AreaCalculatorLibraryTest
 
             ITriangle triangle = null;
             triangle = Shapes.Triangle(sideA, sideB, sideC);
-            Assert.AreEqual(expected, triangle.Area, "Площадь треугольника вычисляется некорректно");
+            Assert.AreEqual(expected, triangle.Area, "Площадь треугольника вычисляется некорректно.");
         }
 
         [TestMethod]
